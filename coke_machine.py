@@ -1,4 +1,3 @@
-
 d = 50
 
 print(f"Amount due: {d}")
