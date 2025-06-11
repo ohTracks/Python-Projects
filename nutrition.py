@@ -1,10 +1,6 @@
-# program that outputs the amount of calories of a certain fruit
-# ask for fruit in input and return calories
 
-# user input
 k = input("Fruit: ").lower().strip()
 
-# create dict
 fruits = {
     "apple": "130 calories",
     "avocado": "50 calories",
@@ -21,7 +17,6 @@ fruits = {
     "watermelon": "80 calories",
 }
 
-# return calories and ignore != fruit
 for _ in fruits:
     if k in fruits:
         print(k.capitalize(), fruits[k], sep=", ")
